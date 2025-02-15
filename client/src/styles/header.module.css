@@ -1,0 +1,24 @@
+#logo {
+  height: 42px;
+  width: 42px;
+}
+
+#title {
+  font-size: 30px;
+  color: #111111;
+  margin-left: 12px;
+  line-height: 43px;
+  font-family: "Nunito", sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  #logo {
+    height: 38px;
+    width: 38px;
+  }
+
+  #title {
+    font-size: 27px;
+    line-height: 40px;
+  }
+}

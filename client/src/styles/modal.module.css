@@ -1,0 +1,44 @@
+.modal-box > div {
+  padding: 25px 50px;
+  border-radius: 15px;
+  text-align: center;
+  width: 415px;
+}
+
+.title {
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 13px;
+}
+
+.description {
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  color: #787878;
+}
+
+.btn {
+  border-radius: 10px;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  width: 280px;
+  padding: 7px 0;
+  margin-bottom: 0 !important;
+  border: 2px solid #ec4747;
+}
+
+.primary-btn {
+  background: #ec4747;
+  color: #ffffff;
+}
+
+.secondary-btn {
+  background: #ffffff;
+  color: #ec4747;
+  margin-bottom: 12px !important;
+  margin-top: 15px;
+}

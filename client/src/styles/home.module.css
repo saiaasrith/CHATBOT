@@ -1,0 +1,102 @@
+#app-details {
+  width: 300px;
+}
+
+#app-title {
+  margin: 0;
+  line-height: 48px;
+  font-family: "Ubuntu", sans-serif;
+  color: #222222;
+}
+
+#app-description {
+  margin: 20px 0 0 0;
+  font-size: 15px;
+  line-height: 24px;
+  color: #4f4f4f;
+}
+
+#start-chat-btn {
+  background: #ec4747;
+  border-radius: 10px;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 40px;
+  border: none;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#start-chat-btn:hover {
+  background: #e44343;
+}
+
+#chat-illustration {
+  width: 450px;
+  margin-left: auto;
+  display: block;
+}
+
+#compliance-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #787878;
+}
+
+#strangers-online {
+  text-align: center;
+}
+
+#strangers-online h5 {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #ec4747;
+  text-decoration: underline;
+}
+
+#strangers-online h6 {
+  display: inline-block;
+  font-weight: 400;
+  margin-bottom: 0;
+  font-size: 22px;
+  line-height: 24px;
+  color: #4f4f4f;
+}
+
+/* -------------  Media Queries ------------ */
+
+@media only screen and (max-width: 768px) {
+  #app-title {
+    line-height: 40px;
+  }
+
+  #chat-illustration {
+    width: 350px;
+  }
+
+  #strangers-online {
+    margin-top: 15px;
+  }
+
+  #strangers-online h5 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  #strangers-online h6 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #start-chat-btn {
+    font-size: 14px;
+  }
+}

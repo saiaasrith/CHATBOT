@@ -1,0 +1,19 @@
+.content {
+  padding: 20px 30px;
+}
+
+.content h3 {
+  color: #111111;
+  margin-bottom: 40px;
+}
+
+.content h5 {
+  color: #111111;
+  margin-top: 30px;
+}
+
+.content p,
+.content li {
+  color: #4f4f4f;
+  font-size: 14px;
+}

@@ -1,0 +1,39 @@
+footer {
+  background: #ec4747;
+  padding: 10px 0;
+}
+
+.footer-links {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: white;
+  text-decoration: none;
+  margin: 0 20px 7px 20px;
+  text-align: center;
+}
+
+.footer-links:hover {
+  color: black;
+}
+
+footer p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 23px;
+  color: #fff2f2;
+  margin: 0;
+  text-align: center;
+}
+
+/* -------------  Media Queries ------------ */
+
+@media only screen and (max-width: 425px) {
+  .footer-links {
+    margin: 0 20px 3px 20px;
+  }
+  footer p {
+    margin-top: 10px;
+  }
+}
